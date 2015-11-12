@@ -16,6 +16,7 @@ import {
 } from '@mona/parse'
 
 import {
+  eol,
   noneOf,
   string as str,
   text
@@ -52,12 +53,4 @@ function quotedChar () {
   return or(noneOf('"'),
             and(str('""'),
                 value('"')))
-}
-
-function eol () {
-  return or(str('\n\r'),
-            str('\r\n'),
-            str('\n'),
-            str('\r'),
-            'end of line')
 }

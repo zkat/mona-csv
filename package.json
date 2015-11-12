@@ -32,6 +32,6 @@
     "@mona/combinators": "^1.0.4",
     "@mona/core": "^1.0.3",
     "@mona/parse": "^1.0.4",
-    "@mona/strings": "^1.0.0"
+    "@mona/strings": "^1.1.0"
   }
 }
